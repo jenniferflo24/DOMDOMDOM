@@ -1,0 +1,20 @@
+.container div{
+    background-color: black;
+    border: chocolate 1px solid;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.square:hover{
+    cursor: pointer;
+    color: green
+}
